@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_traffic_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_traffic" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="384,199,997 ps"></ZoomStartTime>
+      <ZoomEndTime time="384,200,001 ps"></ZoomEndTime>
+      <Cursor1Time time="384,200,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="155"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tb_top_traffic/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_traffic/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_traffic/keys" type="array">
+      <obj_property name="ElementShortName">keys[3:0]</obj_property>
+      <obj_property name="ObjectShortName">keys[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_traffic/led" type="array">
+      <obj_property name="ElementShortName">led[2:0]</obj_property>
+      <obj_property name="ObjectShortName">led[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_traffic/seg" type="array">
+      <obj_property name="ElementShortName">seg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_traffic/dig" type="array">
+      <obj_property name="ElementShortName">dig[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dig[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_traffic/led_d" type="array">
+      <obj_property name="ElementShortName">led_d[2:0]</obj_property>
+      <obj_property name="ObjectShortName">led_d[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_traffic/cnt_d" type="array">
+      <obj_property name="ElementShortName">cnt_d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_traffic/u_dut/counter" type="array">
+      <obj_property name="ElementShortName">counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_traffic/u_dut/set_value" type="array">
+      <obj_property name="ElementShortName">set_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">set_value[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_traffic/u_dut/ped_pulse" type="logic">
+      <obj_property name="ElementShortName">ped_pulse</obj_property>
+      <obj_property name="ObjectShortName">ped_pulse</obj_property>
+   </wvobject>
+</wave_config>
